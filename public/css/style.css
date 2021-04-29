@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row{
+  margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 2rem;
+}
+.navbar-brand:hover {
+  color: white;
+}
+
+.navbar-toggler{
+  border: 2px solid white;
+}
+.navbar-toggler:hover{
+  border: 2px solid turquoise;
+}
+.navbar-toggler-icon:hover{
+  border: 2px solid turquoise;
+
+}
+.navbar li a {
+  font-size: 1.4rem;
+  color: white;
+  text-transform: uppercase;
+}
+.navbar li a:hover {
+  color: turquoise;
+}
+
+.heading {
+  text-transform: uppercase;
+}
+.heading span {
+  color: #ff4f5a;
+}
+
+/* Services section */
+.box {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.our-services {
+  margin-top: 75px;
+  padding-bottom: 30px;
+  padding: 0 30px;
+  min-height: 198px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 0 25px 0 rgba(20, 27, 202, 0.17);
+}
+
+.our-services .icon {
+  margin-bottom: -21px;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.our-services h4 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.section-3{
+  margin-bottom: 8rem;
+}
+
+.footer{
+  font-size: 1.1rem;
+  padding: .6rem;
+  background: black;
+  color: white;
+} 
